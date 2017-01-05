@@ -15,7 +15,7 @@
 		B06EDCA91E1E1AB800607912 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B06EDCA71E1E1AB800607912 /* LaunchScreen.storyboard */; };
 		B06EDCB41E1E1AB800607912 /* RButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B06EDCB31E1E1AB800607912 /* RButtonTests.m */; };
 		B06EDCBF1E1E1AB800607912 /* RButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B06EDCBE1E1E1AB800607912 /* RButtonUITests.m */; };
-		B06EDCD21E1E31D100607912 /* RButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B06EDCD11E1E31D100607912 /* RButton.m */; };
+		B06EDCD61E1E394800607912 /* RButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B06EDCD51E1E394800607912 /* RButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		B06EDCBA1E1E1AB800607912 /* RButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B06EDCBE1E1E1AB800607912 /* RButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RButtonUITests.m; sourceTree = "<group>"; };
 		B06EDCC01E1E1AB800607912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B06EDCD01E1E31D100607912 /* RButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RButton.h; sourceTree = "<group>"; };
-		B06EDCD11E1E31D100607912 /* RButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RButton.m; sourceTree = "<group>"; };
+		B06EDCD41E1E394800607912 /* RButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RButton.h; sourceTree = "<group>"; };
+		B06EDCD51E1E394800607912 /* RButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +84,7 @@
 		B06EDC8D1E1E1AB800607912 = {
 			isa = PBXGroup;
 			children = (
+				B06EDCD31E1E394800607912 /* RButtonClass */,
 				B06EDC981E1E1AB800607912 /* RButton */,
 				B06EDCB21E1E1AB800607912 /* RButtonTests */,
 				B06EDCBD1E1E1AB800607912 /* RButtonUITests */,
@@ -104,7 +105,6 @@
 		B06EDC981E1E1AB800607912 /* RButton */ = {
 			isa = PBXGroup;
 			children = (
-				B06EDCCF1E1E31D100607912 /* RButtonClass */,
 				B06EDC9C1E1E1AB800607912 /* AppDelegate.h */,
 				B06EDC9D1E1E1AB800607912 /* AppDelegate.m */,
 				B06EDC9F1E1E1AB800607912 /* ViewController.h */,
@@ -144,11 +144,11 @@
 			path = RButtonUITests;
 			sourceTree = "<group>";
 		};
-		B06EDCCF1E1E31D100607912 /* RButtonClass */ = {
+		B06EDCD31E1E394800607912 /* RButtonClass */ = {
 			isa = PBXGroup;
 			children = (
-				B06EDCD01E1E31D100607912 /* RButton.h */,
-				B06EDCD11E1E31D100607912 /* RButton.m */,
+				B06EDCD41E1E394800607912 /* RButton.h */,
+				B06EDCD51E1E394800607912 /* RButton.m */,
 			);
 			path = RButtonClass;
 			sourceTree = "<group>";
@@ -288,7 +288,7 @@
 			files = (
 				B06EDCA11E1E1AB800607912 /* ViewController.m in Sources */,
 				B06EDC9E1E1E1AB800607912 /* AppDelegate.m in Sources */,
-				B06EDCD21E1E31D100607912 /* RButton.m in Sources */,
+				B06EDCD61E1E394800607912 /* RButton.m in Sources */,
 				B06EDC9B1E1E1AB800607912 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -521,6 +521,7 @@
 				B06EDCC51E1E1AB800607912 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B06EDCC61E1E1AB800607912 /* Build configuration list for PBXNativeTarget "RButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +530,7 @@
 				B06EDCC81E1E1AB800607912 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B06EDCC91E1E1AB800607912 /* Build configuration list for PBXNativeTarget "RButtonUITests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +539,7 @@
 				B06EDCCB1E1E1AB800607912 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

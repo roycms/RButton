@@ -1,5 +1,5 @@
 //
-//  RButton.m
+//  RUIButton.m
 //  RButton
 //
 //  Created by roycms on 2017/1/5.
@@ -25,14 +25,14 @@
  */
 - (void)touchAction:(id)sender {
 
-    [UIView animateWithDuration:0.06 animations:^{
+    [UIView animateWithDuration:0.03 animations:^{
         self.transform = CGAffineTransformMakeScale(1.03, 1.03);
         [self setHighlighted:YES];
     }completion:^(BOOL finish){
-        [UIView animateWithDuration:0.06 animations:^{
+        [UIView animateWithDuration:0.03 animations:^{
             self.transform = CGAffineTransformMakeScale(0.98, 0.98);
         }completion:^(BOOL finish){
-            [UIView animateWithDuration:0.08 animations:^{
+            [UIView animateWithDuration:0.05 animations:^{
                  self.transform = CGAffineTransformMakeScale(1, 1);
             }completion:^(BOOL finish){
                 [self setHighlighted:NO];
